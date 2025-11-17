@@ -1,90 +1,93 @@
-import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Hammersmith+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloock&family=Kalnia+Glaze:wght@100..700&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  width: 100vw;
-  overflow-x: hidden;
-  background-color: rgb(26, 27, 27);
+    font-family: "Gloock", serif;
 }
 
-
-#titulo-principal {
-  padding: 3vw;
-  border: white 0.3vw solid;
-  border-radius: 2vw;
-  margin-top: 10vh;
-  font-weight: 400;
+.cabecalho {
+    background-color: rgb(2, 19, 15);
+    color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
-#titulo-principal h1 {
-  color: #88d0ec;
-  font-size: 6vw;
-  letter-spacing: 1vw;
-  font-weight: 600;
-}
-#titulo-principal p {
-  font-size: 2vw;
-  letter-spacing: 0.1vw;
-  word-spacing: 0.5vw;
-  line-height: 4vh;
-  color: #20a0b9; 
+.cabecalho-imagem {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
 }
 
-
-main {
-  display: flex;
-  flex-direction: column;
-  width: 70vw;
-  padding: 8vw;
-  border: white 0.3vw solid;
-  border-radius: 2vw;
-  margin: 0 6vw;
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 20px;
 }
 
-main section {
-  padding: 2.5vw;
-  border: white 0.3vw solid;
-  border-radius: 2vw;
-  margin: 5vh 0;
-  color: white;
-  font-size: 1.5vw;
-  letter-spacing: 0.09vw;
-  font-weight: 100;
+.escola-imagem {
+    width: 30%;
 }
 
-main section h2 {
-  font-size: 5vw;
-  letter-spacing: 0.6vw;
-  font-weight: 300;
-  margin-bottom: 2vh;
-}
-    
-main section img {
-  width: 100%;
-  border-radius: 2vw;
-  border-left: white 0.5vw solid;
-  margin-bottom: 3vh;
+.escola {
+    background-image: linear-gradient(#e60dfa,#12eba9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
 
-footer {
-  width: 100%;
-  padding: 10vh 0;
-  border-top: white 0.5vh solid;
-  margin-top: 15vh;
-  background-color: #111316;
-  text-align: center;
-  color: white;
-  font-size: 2vw;
-  letter-spacing: 0.2vw;
-  font-weight: 100;
+.escola-conteudo {
+    width: 35%;
 }
 
+.escola-titulo {
+    padding: 24px 0;
+}
 
+.estudante {
+    padding: 24px 0;
+}
 
+.estudante-imagem {
+    width: 120px;
+}
 
+.estudante-icone {
+    width: 24px;
+    padding: 4px 8px;
+}
 
+.estudante-div {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape {
+    background-color: rgb(7, 132, 90);
+    color: white;
+    text-align: center;
+}
+
+.rodape-icone {
+    display: flex;
+    width: 12%;
+    height: 12px;
+    padding: 12px 0;
+}
