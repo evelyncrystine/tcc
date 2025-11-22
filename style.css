@@ -34,7 +34,7 @@ small {
 
 .cabecalho {
     background-color: rgb(2, 19, 15);
-    color: aqua;
+    color: rgb(68, 36, 214);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +44,7 @@ small {
 .cabecalho-imagem {
     width: 100px;
     height: 90px;
-    border-radius: 50%;
+    border-radius: 40%;
 }
 
 .cabecalho-lista-item {
