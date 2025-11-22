@@ -53,17 +53,17 @@ small {
     font-size: 20px;
 }
 
-.escola-imagem {
+.logo.png-imagem {
     width: 30%;
 }
 
-.escola {
+. {
     background-image: linear-gradient(#e60dfa,#12eba9);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px 0;.
 }
 
 .escola-conteudo {
