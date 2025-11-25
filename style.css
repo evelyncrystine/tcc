@@ -55,15 +55,6 @@ small {
     width: 30%;
 }
 
-. {
-    background-image: linear-gradient(#e60dfa,#12eba9);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;.
-}
-
 .escola-conteudo {
     width: 35%;
 }
