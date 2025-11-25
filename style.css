@@ -1,35 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloock&family=Kalnia+Glaze:wght@100..700&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 20;
     padding: 40;
 }
 
 body {
-  font-family: "Gloock", serif;
-  font-size: 20px; 
-  line-height: 1.6;
+    overflow-x: hidden;
+    font-family: "Gloock", serif;
+    font-size: 20px; 
+    line-height: 1.6;
 }
 
-h1, h2,  {
-  font-size: 30px; 
-  margin-bottom: 15px; 
+h1, h2 {
+    font-size: 30px; 
+    margin-bottom: 15px; 
 }
 
 p {
-  font-size: 15px; 
-  margin-bottom: 10px; 
+    font-size: 15px; 
+    margin-bottom: 10px; 
 }
 
 small {
-  font-size: 14px; 
-}
-
-
-  font-size: 14px;
-  background-color: #f4f4f4; /* Um fundo leve para destacar */
-  padding: 2px 4px;
-  border-radius: 4px;
+    font-size: 14px;
+    background-color: #f4f4f4; /* Um fundo leve para destacar */
+    padding: 2px 4px;
+    border-radius: 4px;
 }
 
 .cabecalho {
